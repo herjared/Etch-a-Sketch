@@ -10,9 +10,10 @@ body{
     align-items: center;
     width:500px;
     height:500px;
+    flex-wrap: wrap;
 }
 .gridColumn{
-
+    display:flex;
 }
 .gridSquare{
     background-color: black;
