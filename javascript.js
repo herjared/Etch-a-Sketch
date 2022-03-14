@@ -4,11 +4,14 @@ const container = document.querySelector(".box");
 /** createGrid creates a grid based on user input */
 
 function createGrid(){
-    for (let i=0;i<32;i++){
+    /**Create grid columns */
+    for (let i=0;i<5;i++){
         const gridColumn = document.createElement('div');
         gridColumn.classList.add("gridColumn");
         container.append(gridColumn);
-        for (let i=0;i<32;i++){
+        
+        /**Create grid squares for columns */
+        for (let i=0;i<5;i++){
             const gridSquare = document.createElement("div");
             gridSquare.classList.add("gridSquare");
             gridColumn.appendChild(gridSquare);

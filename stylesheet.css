@@ -6,17 +6,17 @@ body{
 }
 .box{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width:500px;
-    height:500px;
+    width:1000px;
+    height:1000px;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 .gridColumn{
-    display:flex;
+    display: flex;
+    flex-direction: column;
+    flex:1 1 0;
 }
 .gridSquare{
     background-color: black;
-    width: 16px;
-    height:16px;
+    flex:1 1 0;
 }
