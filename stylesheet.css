@@ -1,0 +1,21 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height:500px;
+}
+.gridColumn{
+
+}
+.gridSquare{
+    background-color: black;
+    width: 16px;
+    height:16px;
+}
